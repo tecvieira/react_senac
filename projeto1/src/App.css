@@ -41,7 +41,6 @@ section {
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
-
 }
 
 article {
@@ -49,9 +48,10 @@ article {
     justify-content: center;
     align-items: center;
 }
+
+h1 {
+    margin-bottom: 20px;
 }
-
-
 
 h2 {
     margin-bottom: 15px;
