@@ -5,3 +5,17 @@
   
 }
 
+section{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card img{
+  width: 40%;
+  height: auto;
+}
+
+.card{
+  max-width: 600px;
+}

@@ -7,7 +7,7 @@ export default function Header() {
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">TecVander</a>
+                    <a class="navbar-brand" href="#">VanderFish</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -20,17 +20,17 @@ export default function Header() {
                                 <a class="nav-link active" aria-current="page" href="#">Contatos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Veículos</a>
+                                <a class="nav-link" href="#">Espécies</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Opções
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Elétrica</a></li>
-                                    <li><a class="dropdown-item" href="#">Mecânica</a></li>
+                                    <li><a class="dropdown-item" href="#">Água Doce</a></li>
+                                    <li><a class="dropdown-item" href="#">Água Salgada</a></li>
                                     <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#">Estrutura</a></li>
+                                    <li><a class="dropdown-item" href="#">Lago Tanganica</a></li>
                                 </ul>
                             </li>
 
