@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import FotoPalhaco from './assets/img/palhaco1.jpg'
 import FotoDonzela from './assets/img/donzela2.png'
+import FotoAnthia from './assets/img/anthias.png'
+import FotoParu from './assets/img/paru.png'
 
 export default function Body() { 
 
@@ -44,29 +46,26 @@ export default function Body() {
                     <img src={FotoDonzela} class="card-img-bottom img-card" alt="..."/>
                 </div>
             </section>
+            {/* fim do primeiro bloco */}
             <section>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+                <div class="card mb-3">
+                    <img src={FotoAnthia} class="card-img-top" alt="peixe palhaço" />
+                    <div class="card-body">
+                        <h5 class="card-title">Anthias-Dourado</h5>
+                        <h6 class="card-title">Pseudanthias/Anthias</h6>
+                        <p class="card-text">Peixe marinho de recifes tropicais, conhecido por suas cores vibrantes em tons de laranja e amarelo, com detalhes arroxeados na região da cabeça. Vive associado a recifes de coral, onde nada entre as formações em busca de pequenos organismos. É uma espécie ativa, colorida e importante para o equilíbrio do ecossistema recifal.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
-
-                
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Peixe-frade</h5>
+                        <h6 class="card-title">Pomacanthus paru</h6>
+                        <p class="card-text">O peixe-frade é uma espécie marinha típica de recifes tropicais do Atlântico Ocidental. Possui corpo escuro com faixas claras verticais e pode atingir grande porte. Vive próximo a recifes e costões rochosos, alimentando-se principalmente de esponjas e algas. É uma espécie importante para a manutenção do equilíbrio dos recifes de coral.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <img src={FotoParu} class="card-img-bottom img-card" alt="..." />
+                </div>
             </section>
         </main>
     )

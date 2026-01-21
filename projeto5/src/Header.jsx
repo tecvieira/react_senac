@@ -27,10 +27,10 @@ export default function Header() {
                                     Opções
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Água Doce</a></li>
-                                    <li><a class="dropdown-item" href="#">Água Salgada</a></li>
+                                    <li><a class="dropdown-item" href="#">Peixe Palhaço</a></li>
+                                    <li><a class="dropdown-item" href="#">Donzelas</a></li>
                                     <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#">Lago Tanganica</a></li>
+                                    <li><a class="dropdown-item" href="#">Anthias</a></li>
                                 </ul>
                             </li>
 
