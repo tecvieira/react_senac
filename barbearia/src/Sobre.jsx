@@ -16,7 +16,7 @@ const sobreInfo = {
 
 export function Sobre() {
     return (
-        <section className="bg-dark py-5 text-white">
+        <section className="bg-dark py-5 text-white" id="sobre">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 mx-auto text-center">
