@@ -172,23 +172,7 @@ export function Contato() {
                             </div>
                         </form>
 
-                        <div className="row mt-5 text-center">
-                            <div className="col-md-4">
-                                <i className="fas fa-map-marker-alt fa-2x mb-3 text-primary"></i>
-                                <h5>Localização</h5>
-                                <p>Rio de Janeiro, RJ<br />Copacabana</p>
-                            </div>
-                            <div className="col-md-4">
-                                <i className="fas fa-phone fa-2x mb-3 text-primary"></i>
-                                <h5>Telefone</h5>
-                                <p>(21) 99999-9999</p>
-                            </div>
-                            <div className="col-md-4">
-                                <i className="fas fa-clock fa-2x mb-3 text-primary"></i>
-                                <h5>Horário</h5>
-                                <p>Seg-Sex: 9h-19h<br />Sáb: 8h-17h</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

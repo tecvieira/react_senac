@@ -9,8 +9,7 @@ import { Header } from './Header.jsx';
 import { Body } from './Body.jsx';
 import { Body2 } from './Body2.jsx';
 import { Sobre } from './Sobre.jsx';
-import { Contato } from './Contatos.jsx';
-import { Equipe } from './Equipe.jsx';
+import { Contato } from './Contatos.jsx';import { Footer } from './Footer.jsx';import { Equipe } from './Equipe.jsx';
 
 
 
@@ -25,8 +24,7 @@ export function App() {
       <Body2 id="servicos"></Body2>
       <Equipe></Equipe>
       <Contato></Contato>
-
-
+      <Footer></Footer>
 
       <Routes>
 
