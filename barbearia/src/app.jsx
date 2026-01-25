@@ -25,12 +25,6 @@ export function App() {
       <Equipe></Equipe>
       <Contato></Contato>
       <Footer></Footer>
-
-      <Routes>
-
-      </Routes>
-
-
     </BrowserRouter>
   )
 }
